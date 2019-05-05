@@ -1,0 +1,187 @@
+#banner {
+  width: 100%;
+  height: 90vh;
+  background-image: url('facebook.jpg');
+  /* Pleaes insert correct image server location above */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+#bannerwrap {
+  /* in case of IE browser style mess up */
+  background-color: rgb(44,58,145)
+}
+
+body {
+  background: rgb(254,254,254);
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background: rgb(254,254,254);
+}
+
+#download_container {
+  background: none;
+  width: 42vw;
+  height: 10vh;
+  position: absolute;
+  bottom: 20%;
+  left: 55vw;
+  z-index: 100;
+}
+
+.button_container {
+  background: none;
+  font-family: Poppins, sans-serif;
+  font-size: 1.3vw;
+  font-weight: 400;
+  text-align: center;
+  width: 20vw;
+  height: 10vh;
+}
+
+.button_download {
+  border: none;
+  color: white;
+  background: rgb(143,209,105);
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: 1.3vw;
+  font-weight: 700;
+  text-align: center;
+}
+
+#fullreport {
+  float: left;
+}
+
+#summary {
+  float: right;
+}
+
+h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: Poppins, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+a {
+  color: black;
+}
+
+.infobody {
+  margin-bottom: 6vh;
+}
+
+#content {
+  background: rgb(254,254,254);
+  color: black;
+  width: 90vw;
+  height: 50vh;
+  margin: auto;
+  padding-top: 8vh;
+
+}
+
+.contentbox {
+  background: none;
+}
+
+#about {
+  width: 60%;
+  float: left;
+}
+
+#info {
+  width: 35%;
+  float: right;
+  padding-top: 2vh;
+}
+
+#stickyheader {
+  background: rgb(44,58,145);
+  position: fixed;
+  width: 100vw;
+  height: 16vh;
+  overflow: hidden;
+  object-fit: scale-down;
+  transition: 0.4s all ease;
+  z-index: 1001;
+}
+
+#stickyheader.sticky{
+  background: rgb(254,254,254);
+}
+
+#stickyheader img {
+  height: 10vh;
+  padding-left: 5vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#partnership {
+  background: rgb(248,248,248);
+  position: absolute;
+  top: 164vh;
+  width: 100vw;
+  height: 40vh;
+}
+
+#partnerwith {
+  position: relative;
+  left: 20%;
+  top: 20%;
+  z-index: 10;
+}
+
+#partnerlogos {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 45%;
+  height: 50%;
+  overflow: hidden;
+  object-fit: scale-down;
+}
+
+#logo_ch {
+  height: 40%;
+  float: left;
+}
+
+#logo_unige {
+  height: 30%;
+  float: right;
+}
+
+html, body, header {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width:800px) {
+  .banner {
+    height: 50%;
+  }
+}
