@@ -174,14 +174,71 @@ a {
   float: right;
 }
 
+
+/* Added styles - 6 May */
 html, body, header {
   width: 100%;
   margin: 0;
   overflow-x: hidden;
 }
 
-@media screen and (max-width:800px) {
-  .banner {
-    height: 50%;
-  }
+#banner.narrow {
+  height: 80%;
+  width: 90%;
+  float: right;
+}
+
+#logo_ch.narrow {
+  height: 30%;
+}
+
+#logo_unige.narrow {
+  height: 20%;
+}
+
+#bannerwrap.narrow {
+  width: 100vw;
+  height: 55vh;
+}
+
+#download_container.narrow {
+  background: rgb(44,58,145);
+  width: 42vw;
+  height: 6vh;
+  position: absolute;
+  /* position: relative; */
+  left: 30%;
+  bottom: auto;
+  top: 46%;
+  /* top: 98%; */
+  /* z-index: inherit; */
+  z-index: 100;
+}
+
+#fullreport.narrow {
+  height: 6vh;
+}
+
+#summary.narrow {
+  height: 6vh;
+}
+
+#content.narrow {
+  height: 40vh;
+}
+
+#stickyheader.narrow {
+  height: 12vh;
+}
+
+#stickyheader.narrow img {
+  height: 8vh;
+  padding-left: 5vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+#partnership.narrow {
+  top: 95vh;
+  height: 20vh;
 }
